@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Fitness | Gym Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero" id="home">
+        <p class="tag">AI-Powered Gymnasium App</p>
+        <h1>Build Strength. Eat Smart. Stay Consistent.</h1>
+        <p class="hero-copy">
+          AI Fitness helps you follow gym workouts, track nutrition, and stay motivated
+          with a premium mobile-first experience.
+        </p>
+        <div class="hero-actions">
+          <a href="#workouts" class="btn btn-primary">Explore Workouts</a>
+          <a href="#diets" class="btn btn-secondary">View Diet Plans</a>
+        </div>
+      </header>
+
+      <section class="panel" id="workouts">
+        <div class="section-title-wrap">
+          <p class="section-tag">Workout Plans</p>
+          <h2>Train Like a Champion</h2>
+        </div>
+        <div class="cards workouts-grid">
+          <article class="card">
+            <h3>Push Day</h3>
+            <ul>
+              <li>Barbell Bench Press — 4 x 8</li>
+              <li>Dumbbell Shoulder Press — 3 x 10</li>
+              <li>Incline Dumbbell Fly — 3 x 12</li>
+              <li>Tricep Rope Pushdown — 3 x 15</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Pull Day</h3>
+            <ul>
+              <li>Deadlifts — 4 x 6</li>
+              <li>Lat Pulldown — 4 x 10</li>
+              <li>Seated Cable Row — 3 x 12</li>
+              <li>EZ Bar Curls — 3 x 15</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Leg Day</h3>
+            <ul>
+              <li>Back Squats — 4 x 8</li>
+              <li>Romanian Deadlift — 3 x 10</li>
+              <li>Walking Lunges — 3 x 20 steps</li>
+              <li>Standing Calf Raise — 4 x 15</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="diets">
+        <div class="section-title-wrap">
+          <p class="section-tag">Diet & Nutrition</p>
+          <h2>Fuel Your Performance</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Lean Muscle Meal Plan</h3>
+            <p>
+              Balanced high-protein plan with complex carbs and healthy fats to support
+              gym performance and recovery.
+            </p>
+            <ul>
+              <li>Breakfast: Oats + Egg Whites + Fruit</li>
+              <li>Lunch: Chicken Breast + Brown Rice + Greens</li>
+              <li>Dinner: Grilled Fish + Quinoa + Salad</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Fat Loss Meal Plan</h3>
+            <p>
+              Calorie-conscious plan with nutrient-dense foods to reduce fat while
+              preserving muscle mass.
+            </p>
+            <ul>
+              <li>Breakfast: Greek Yogurt + Nuts + Berries</li>
+              <li>Lunch: Tofu/Chicken Wrap + Veggies</li>
+              <li>Dinner: Stir-fry Veggies + Lean Protein</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="about">
+        <div class="section-title-wrap">
+          <p class="section-tag">About</p>
+          <h2>Why AI Fitness?</h2>
+        </div>
+        <div class="card">
+          <p>
+            AI Fitness is designed for gym enthusiasts who want a sleek mobile app to
+            organize workouts, personalize diet plans, and stay accountable every day.
+          </p>
+          <p>
+            Our goal is simple: make fitness planning effortless so you can focus on
+            getting stronger and healthier.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="contact">
+        <div class="section-title-wrap">
+          <p class="section-tag">Contact</p>
+          <h2>Get in Touch</h2>
+        </div>
+        <form class="card contact-form">
+          <label>
+            Name
+            <input type="text" placeholder="Enter your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Message
+            <textarea rows="4" placeholder="Tell us your fitness goal"></textarea>
+          </label>
+          <button type="button" class="btn btn-primary" id="contactBtn">Send Message</button>
+          <p class="message" id="message"></p>
+        </form>
+      </section>
+
+      <nav class="bottom-nav">
+        <a href="#home">Home</a>
+        <a href="#workouts">Workouts</a>
+        <a href="#diets">Diets</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
